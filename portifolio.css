@@ -1,0 +1,122 @@
+/* first properties: Remembering that the asterisk gets the whole site */
+* {
+    /* defines a margin area on the four sides of the element */
+    margin: 0;
+    /* distance between the content of an element and its borders */
+    padding: 0;
+    /* to configure one or more of the outline properties */
+    outline: 0;
+    }
+    body {
+    /* Setting the font of our whole body */
+    font-family : 'Roboto' , sans serif;
+    margin: 0;
+    }
+    read {
+    /* removing the balls from our lists */
+    list style : none;
+    }
+    .header menu {
+    /* // Make the element a flex container automatically all its direct children in
+    flex items. */
+    display : flexible;
+    position : fixed; /*Make our header fixed*/
+    width: 100%; /*Width*/
+    padding: 8px; /* Spacing the 4 sides */
+    padding-bottom : 32 px ; /* Bottom spacing */
+    padding-top : 32 px ; /* Top spacing */
+    height: 60px; _ /*Height*/
+    background color : #724796 ; /* background color of our navigation bar */
+}
+.header menu navigation {
+display : flexible;
+justify-content :flex-end; /*Placed on the right side of the page*/
+width: 100%; /*Width*/
+}
+.list-menu {
+display : flexible;
+justify-content :space evenly; /* Spacing between them is equal */
+width: 50%; /*Width*/
+alignment items:center; /* Positioning in the center */
+}
+*Getting the items with tag a from within our list*/
+.list-menu li > a {
+color : #FFF ; _ /* Text color */
+font size: 18 px; /*Font size*/
+text decoration: inherit; /* removing the underscore */
+}
+.main {
+height: 100 vh; /*Height*/
+display : flexible;
+background color : # EAEAEA ; /*Background color*/
+}
+/* The container is a Bootstrap component that ensures your layout will look
+correctly aligned on the page.
+It can define the side margins of the page, or leave it without margins, and also
+position the content in
+browser center. The container is invisible. */
+.container {
+right margin: auto; /* an automatic margin for all sides */
+margin-left : auto;
+top margin: 75 px; /* Margin up */
+max width: 960px; /*maximum width*/
+padding-right : 10 px ; /* Right spacing */
+padding-left : 10 px ; /*Left spacing*/
+width: 100%; /*width*/
+}
+.subcontainer-main {
+/*display, flex-direction and justify content are flexbox elements that together,
+align our items*/
+display : flexible;
+flex-direction : column;
+justify-content : center;
+alignment items: center;
+text alignment : center;
+}
+.full name {
+font size: 36 px;
+color : # ff4dbc ;
+font weight: 700; /*thickness*/
+height: 45px; _
+}
+.profession {
+color : # C6B5D5 ;
+height: 60 PX;
+}
+.text about {
+font size: 20 px;
+row height: 32 px; /* Line spacing */
+}
+.list-article {
+display : flexible;
+flex-direction : column;
+top margin: 100px;
+bottom margin: 100 px;
+}
+.main-topic {
+font size: 36 px;
+color : # ff4dbc ;
+}
+.item-list {
+padding: 32 px;
+}
+.list-item ul li {
+bottom margin: 32 px; /* spacing between items in our list */
+}
+.title-list {
+    bottom margin: 5 px;
+font size: 22 px;
+color: #661566;
+font weight: 700;
+}
+.location-list {
+font size: 18 px;
+color: #2F80ED;
+}
+.description-list {
+font size: 18 px;
+top margin: 5 px;
+row height: 20 px; /* Line spacing */
+color: #828282;
+font weight: 300;
+}
